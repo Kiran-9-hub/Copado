@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Opret filter-begivenheden</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Opret filter-begivenhed</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Opret filter-begivenhed</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Opret filter-begivenhederne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Opret filter-begivenheder</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Opret filter-begivenheder</value>
+    </caseValues>
+    <fields>
+        <label>Aftaleliste-id</label>
+        <name>FSL__AppointmentListId__c</name>
+    </fields>
+    <fields>
+        <label>Beskrivelse</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Filterkategori</label>
+        <name>FSL__FilterCategory__c</name>
+    </fields>
+    <fields>
+        <label>Filternavn</label>
+        <name>FSL__FilterName__c</name>
+    </fields>
+    <fields>
+        <label>Indlæs filter straks</label>
+        <name>FSL__LoadFilterImmediately__c</name>
+    </fields>
+    <fields>
+        <label>Service-id&apos;er</label>
+        <name>FSL__ServiceApptIds__c</name>
+    </fields>
+    <fields>
+        <label>Område-id&apos;er</label>
+        <name>FSL__TerritoryIds__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

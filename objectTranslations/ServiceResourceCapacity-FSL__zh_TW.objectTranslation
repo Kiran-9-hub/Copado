@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>使用時數</label>
+        <name>FSL__HoursInUse__c</name>
+    </fields>
+    <fields>
+        <label>上次更新 Epoch</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>已使用分鐘數</label>
+        <name>FSL__MinutesUsed__c</name>
+    </fields>
+    <fields>
+        <label>已配置的工作項目</label>
+        <name>FSL__Work_Items_Allocated__c</name>
+    </fields>
+</CustomObjectTranslation>

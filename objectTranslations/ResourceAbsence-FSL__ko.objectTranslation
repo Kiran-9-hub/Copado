@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>부재 자원 캘린더 툴팁</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>자원 부재 라이트 박스</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>자원 부재 자원 캘린더</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <fields>
+        <label>승인됨</label>
+        <name>FSL__Approved__c</name>
+    </fields>
+    <fields>
+        <label>예약 기간</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>다음 위치에서 출발 시 예상 이동 시간</label>
+        <name>FSL__EstTravelTimeFrom__c</name>
+    </fields>
+    <fields>
+        <label>예상 이동 시간</label>
+        <name>FSL__EstTravelTime__c</name>
+    </fields>
+    <fields>
+        <label>다음 위치에서 출발 시 예상 이동 시간</label>
+        <name>FSL__EstimatedTravelDistanceFrom__c</name>
+    </fields>
+    <fields>
+        <label>다음 위치까지 예상 이동 시간</label>
+        <name>FSL__EstimatedTravelDistanceTo__c</name>
+    </fields>
+    <fields>
+        <label>소스로부터 예상 이동 시간</label>
+        <name>FSL__Estimated_Travel_Time_From_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>소스까지 예상 이동 시간</label>
+        <name>FSL__Estimated_Travel_Time_To_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Gantt 레이블</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Gantt 색상</label>
+        <name>FSL__Gantt_Color__c</name>
+    </fields>
+    <fields>
+        <label>내부 SLR 지리적 위치</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>최근 업데이트된 연대</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>사용된 일정 예약 정책</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>자원 부재</relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label>휴식</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>비가용성</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Gantt 색상이 16 진수 형식이어야 함: (예: #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>시작 시간은 종료 시간 이전이어야 합니다.</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

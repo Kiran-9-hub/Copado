@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Členovia balíka</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Členovia balíka na rovnakej úrovni</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Zväzok Lightbox</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Stĺpce kapacitných služieb</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Vyhľadávacie polia komplexných prác</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Správa posádky</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Tip správy posádky</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Určené polia práce</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Zastaralé</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Filter ganntového grafu</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kritériá optimalizácie stretnutia</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Rozšírené servisné stretnutie</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Stĺpce zoznamu servisného stretnutia</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Náhľad zoznamu servisného stretnutia</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Zobrazenie kalendára zdrojov pre servisné stretnutia</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Tip kalendára zdrojov pre servisné stretnutia</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Mapa informačného okna služby</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox služby</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Adresa Lightbox služby</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Čas Lightbox služby</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Servisný tip Gannt</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <fields>
+        <label>Hodnotenie stretnutia</label>
+        <name>FSL__Appointment_Grade__c</name>
+    </fields>
+    <fields>
+        <label>Automatické plánovanie</label>
+        <name>FSL__Auto_Schedule__c</name>
+    </fields>
+    <fields>
+        <label>Plánované trvanie</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Pohotovosť</label>
+        <name>FSL__Emergency__c</name>
+    </fields>
+    <fields>
+        <label>Farba Ganttovho diagramu</label>
+        <name>FSL__GanttColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a URL for an icon. The URL must end in an image suffix, such as .png. --></help>
+        <label>Ikona Ganttovho diagramu</label>
+        <name>FSL__GanttIcon__c</name>
+    </fields>
+    <fields>
+        <label>Štítok pre Ganttov diagram</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Dátum zobrazenia Ganttovho diagramu</label>
+        <name>FSL__Gantt_Display_Date__c</name>
+    </fields>
+    <fields>
+        <label>Podrobnosti štítku pre Ganttov diagram</label>
+        <name>FSL__Gantt_Label_Details__c</name>
+    </fields>
+    <fields>
+        <label>Dôvod ohrozenia</label>
+        <name>FSL__InJeopardyReason__c</name>
+        <picklistValues>
+            <masterLabel>Delayed Finish</masterLabel>
+            <translation><!-- Delayed Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Start</masterLabel>
+            <translation><!-- Delayed Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date Approaching</masterLabel>
+            <translation><!-- Due Date Approaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation><!-- No Response --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>V ohrození</label>
+        <name>FSL__InJeopardy__c</name>
+    </fields>
+    <fields>
+        <label>Vnútorná geografická poloha SLR</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>Je kandidátom na zastúpenie</label>
+        <name>FSL__IsFillInCandidate__c</name>
+    </fields>
+    <fields>
+        <label>Je MultiDay</label>
+        <name>FSL__IsMultiDay__c</name>
+    </fields>
+    <fields>
+        <label>Naposledy aktualizované obdobie</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Vypočítaná dĺžka viacdňovej práce</label>
+        <name>FSL__MDS_Calculated_length__c</name>
+    </fields>
+    <fields>
+        <label>Prevádzkový čas viacdňovej práce</label>
+        <name>FSL__MDT_Operational_Time__c</name>
+    </fields>
+    <fields>
+        <label>Pripnuté</label>
+        <name>FSL__Pinned__c</name>
+    </fields>
+    <fields>
+        <label>Nevytvárať geokód pri operácii Chatter</label>
+        <name>FSL__Prevent_Geocoding_For_Chatter_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Príbuzná služba</label>
+        <name>FSL__Related_Service__c</name>
+        <relationshipLabel>Servisné stretnutia</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Rovnaký deň</label>
+        <name>FSL__Same_Day__c</name>
+    </fields>
+    <fields>
+        <label>Rovnaký zdroj</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>Režim plánu</label>
+        <name>FSL__Schedule_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drag and Drop</masterLabel>
+            <translation><!-- Drag and Drop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Optimization</masterLabel>
+            <translation><!-- Global Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Day Optimization</masterLabel>
+            <translation><!-- In Day Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimization</masterLabel>
+            <translation><!-- Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Optimization</masterLabel>
+            <translation><!-- Resource Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Naplánovať cez termín nízkej priority</label>
+        <name>FSL__Schedule_over_lower_priority_appointment__c</name>
+    </fields>
+    <fields>
+        <label>Použitá metóda plánovania</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>Servisné stretnutia</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Časová závislosť</label>
+        <name>FSL__Time_Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Finish Before Start</masterLabel>
+            <translation><!-- Finish Before Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>UpdatedByOptimization</label>
+        <name>FSL__UpdatedByOptimization__c</name>
+    </fields>
+    <fields>
+        <label>Použiť asynchrónnu logiku</label>
+        <name>FSL__Use_Async_Logic__c</name>
+    </fields>
+    <fields>
+        <label>Virtuálna služba operácie Chatter (SLR)</label>
+        <name>FSL__Virtual_Service_For_Chatter_Action__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>Nový servisný termín nemožno vytvoriť v naplánovanom alebo vyslanom stave.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vyberte platný typ závislosti. Ak musia byť stretnutia priradené k rovnakému zdroju, typ závislosti nemôže byť rovnaký začiatok.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Závislosť zdroja je neplatná. Časová závislosť nemôže mať hodnotu Rovnaký začiatok, ak je požadovaný rovnaký zdroj.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vyžaduje sa naplánované zahájenie aj koniec</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vyžaduje sa naplánované zahájenie aj koniec</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Farbu Ganttovho diagramu je potrebné zadať v hexadecimálnom formáte: (napríklad: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vyberte príbuznú službu.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vyžaduje sa pole termínu</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vyžaduje sa pole trvania</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vyžaduje sa pole najskoršieho času zahájenia</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Naplánované zahájenie musí byť skôr ako naplánovaný koniec.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+</CustomObjectTranslation>

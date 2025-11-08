@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Отсъствие на пояснение в календар на ресурс</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Прозорец на отсъствие на ресурси</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Отсъствие на ресурси в календар на ресурс</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <fields>
+        <label>Одобрено</label>
+        <name>FSL__Approved__c</name>
+    </fields>
+    <fields>
+        <label>Планирана продължителност</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Очаквано време на пътуване от</label>
+        <name>FSL__EstTravelTimeFrom__c</name>
+    </fields>
+    <fields>
+        <label>Очаквано време на пътуване</label>
+        <name>FSL__EstTravelTime__c</name>
+    </fields>
+    <fields>
+        <label>Очаквано разстояние на пътуване от</label>
+        <name>FSL__EstimatedTravelDistanceFrom__c</name>
+    </fields>
+    <fields>
+        <label>Очаквано разстояние на пътуване до</label>
+        <name>FSL__EstimatedTravelDistanceTo__c</name>
+    </fields>
+    <fields>
+        <label>Очаквано време на пътуване от източник</label>
+        <name>FSL__Estimated_Travel_Time_From_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Очаквано време на пътуване до източник</label>
+        <name>FSL__Estimated_Travel_Time_To_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Етикет на Гант</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Цвят на Гант</label>
+        <name>FSL__Gantt_Color__c</name>
+    </fields>
+    <fields>
+        <label>Вътрешнo SLR географско местоположение</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>Последен актуализиран период</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Използвани са правила за планиране</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>Отсъствия на ресурси</relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label>Прекъсване</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Липса</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Цветът на Гант трябва да е в шестнадесетичен формат: (например: #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Часът на началото трябва да е по-рано от часа на края.</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

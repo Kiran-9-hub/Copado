@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Nakładające się zdarzenie</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Nakładające się zdarzenia</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Nakładające się zdarzenie</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Nakładające się zdarzenia</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Nakładającego się zdarzenia</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Nakładających się zdarzeń</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Nakładającemu się zdarzeniu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Nakładającym się zdarzeniom</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Nakładającym się zdarzeniem</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Nakładającymi się zdarzeniami</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Nakładającym się zdarzeniu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Nakładających się zdarzeniach</value>
+    </caseValues>
+    <fields>
+        <label>Typ zdarzenia</label>
+        <name>FSL__Event_Type__c</name>
+    </fields>
+    <fields>
+        <label>Długość nakładania się w minutach</label>
+        <name>FSL__Overlap_Length_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Identyfikator rekordu</label>
+        <name>FSL__Record_ID__c</name>
+    </fields>
+    <fields>
+        <label>Identyfikator zasobu</label>
+        <name>FSL__Resource_ID__c</name>
+    </fields>
+    <fields>
+        <label>Strefa czasowa zasobu</label>
+        <name>FSL__Resource_Time_Zone__c</name>
+    </fields>
+    <fields>
+        <label>Początek</label>
+        <name>FSL__Start__c</name>
+    </fields>
+    <fields>
+        <label>Temat</label>
+        <name>FSL__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Identyfikator terytorium</label>
+        <name>FSL__Territory_ID__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa terytorium</label>
+        <name>FSL__Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label>Identyfikator użytkownika</label>
+        <name>FSL__User_ID__c</name>
+    </fields>
+    <fields>
+        <label>Identyfikator typu pracy</label>
+        <name>FSL__Work_Type_ID__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa typu pracy</label>
+        <name>FSL__Work_Type_Name__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mappage de champs d&apos;importation de données</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mappages de champs d&apos;importation de données</value>
+    </caseValues>
+    <fields>
+        <help><!-- The Data Import Field Mapping Set containing this field mapping. --></help>
+        <label>Ensemble mappages champs Import. données</label>
+        <name>npsp__Data_Import_Field_Mapping_Set__c</name>
+        <relationshipLabel>Mappages de champs d&apos;importation de données</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- When checked, indicates this record was deleted from the Data Import Advanced Mapping user interface and will be ignored during NPSP Data Import processing. --></help>
+        <label>Est supprimé</label>
+        <name>npsp__Is_Deleted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the field on the NPSP Data Import object must contain a value. When it&apos;s required, Dry Run will fail if that field doesn&apos;t contain a value. --></help>
+        <label>Obligatoire ?</label>
+        <name>npsp__Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field on the NPSP Data Import object. --></help>
+        <label>Nom d&apos;API du champ source</label>
+        <name>npsp__Source_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field on the target object. --></help>
+        <label>Nom d&apos;API du champ cible</label>
+        <name>npsp__Target_Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The target Data Import Object Group for this field mapping. --></help>
+        <label>Mappage des objets cibles</label>
+        <name>npsp__Target_Object_Mapping__c</name>
+        <relationshipLabel>Mappages de champs d&apos;importation de données</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

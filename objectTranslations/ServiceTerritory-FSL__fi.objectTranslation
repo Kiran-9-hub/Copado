@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Piilota hätäkartta</label>
+        <name>FSL__Hide_Emergency_Map__c</name>
+    </fields>
+    <fields>
+        <label>Sisäinen SLR HomeAddress -geosijainti</label>
+        <name>FSL__Internal_SLR_Geolocation__c</name>
+    </fields>
+    <fields>
+        <label>Tippasyötteen palveluiden määrä</label>
+        <name>FSL__NumberOfServicesToDripFeed__c</name>
+    </fields>
+    <fields>
+        <label>Käytä parannet. ajoitusta ja optimointia</label>
+        <name>FSL__O2_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Palv.klust. min.koko (suljettu pilotti)</label>
+        <name>FSL__Service_Cluster_Min_Size__c</name>
+    </fields>
+    <fields>
+        <label>Palv.klust. läheisyys (suljettu pilotti)</label>
+        <name>FSL__Service_Cluster_Proximity__c</name>
+    </fields>
+    <fields>
+        <label>Järjestelmätyöt</label>
+        <name>FSL__System_Jobs__c</name>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesDispatched</masterLabel>
+            <translation><!-- BATCH_ServicesDispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesInJeopardy</masterLabel>
+            <translation><!-- BATCH_ServicesInJeopardy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChatterNotification</masterLabel>
+            <translation><!-- ChatterNotification --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Aluetaso</label>
+        <name>FSL__TerritoryLevel__c</name>
+    </fields>
+</CustomObjectTranslation>

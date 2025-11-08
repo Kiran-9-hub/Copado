@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Μέλη πακέτου</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Συγγενικά μέλη πακέτου</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox εργαλείου δημιουργίας πακέτων</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Στήλες υπηρεσίας χωρητικότητας</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Πεδία αναζήτησης σύνθετων εργασιών</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Διαχείριση προσωπικού</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Συμβουλή εργαλείου διαχείρισης προσωπικού</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Αντιστοιχισμένα πεδία εργασίας</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Παρωχημένο</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Φίλτρο Gantt</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Κριτήρια βελτιστοποίησης ραντεβού εξυπηρέτησης</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Το ραντεβού εξυπηρέτησης επεκτάθηκε</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Στήλες λίστας ραντεβού εξυπηρέτησης</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Προεπισκόπηση λίστας ραντεβού εξυπηρέτησης</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Εμφάνιση ημερολογίου πόρων ραντεβού εξυπηρέτησης</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Συμβουλή εργαλείου ημερολογίου πόρων ραντεβού εξυπηρέτησης</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Χάρτης παραθύρου πληροφοριών υπηρεσίας</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox υπηρεσίας</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Διεύθυνση Lightbox υπηρεσίας</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Χρόνος Lightbox υπηρεσίας</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Γράφημα Gantt συμβουλής εργαλείου υπηρεσίας</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <fields>
+        <label>Βαθμός ραντεβού</label>
+        <name>FSL__Appointment_Grade__c</name>
+    </fields>
+    <fields>
+        <label>Αυτόματο πρόγραμμα</label>
+        <name>FSL__Auto_Schedule__c</name>
+    </fields>
+    <fields>
+        <label>Προγραμματισμένη διάρκεια</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Έκτακτη ανάγκη</label>
+        <name>FSL__Emergency__c</name>
+    </fields>
+    <fields>
+        <label>Χρώμα γραφήματος Gantt</label>
+        <name>FSL__GanttColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a URL for an icon. The URL must end in an image suffix, such as .png. --></help>
+        <label>Εικονίδιο Gantt</label>
+        <name>FSL__GanttIcon__c</name>
+    </fields>
+    <fields>
+        <label>Ετικέτα Gantt</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Ημερομηνία εμφάνισης Gantt</label>
+        <name>FSL__Gantt_Display_Date__c</name>
+    </fields>
+    <fields>
+        <label>Λεπτομέρειες ετικέτας Gantt</label>
+        <name>FSL__Gantt_Label_Details__c</name>
+    </fields>
+    <fields>
+        <label>Αιτία που βρίσκεται σε κίνδυνο</label>
+        <name>FSL__InJeopardyReason__c</name>
+        <picklistValues>
+            <masterLabel>Delayed Finish</masterLabel>
+            <translation><!-- Delayed Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Start</masterLabel>
+            <translation><!-- Delayed Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date Approaching</masterLabel>
+            <translation><!-- Due Date Approaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation><!-- No Response --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Σε κίνδυνο</label>
+        <name>FSL__InJeopardy__c</name>
+    </fields>
+    <fields>
+        <label>Εσωτερικός γεω-εντοπισμός SLR</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>Είναι υποψήφιος αντικατάστασης</label>
+        <name>FSL__IsFillInCandidate__c</name>
+    </fields>
+    <fields>
+        <label>Είναι MultiDay</label>
+        <name>FSL__IsMultiDay__c</name>
+    </fields>
+    <fields>
+        <label>Τελευταίο ενημερωμένο στοιχείο Epoch</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Υπολογ. διάρκεια εργασίας πολλ. ημερών</label>
+        <name>FSL__MDS_Calculated_length__c</name>
+    </fields>
+    <fields>
+        <label>Χρόνος λειτ. εργασίας πολλαπλών ημερών</label>
+        <name>FSL__MDT_Operational_Time__c</name>
+    </fields>
+    <fields>
+        <label>Καρφιτσώθηκε</label>
+        <name>FSL__Pinned__c</name>
+    </fields>
+    <fields>
+        <label>Αποκλ. γεω-εντοπισμού για ενέργ. Chatter</label>
+        <name>FSL__Prevent_Geocoding_For_Chatter_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Σχετική υπηρεσία</label>
+        <name>FSL__Related_Service__c</name>
+        <relationshipLabel>Ραντεβού εξυπηρέτησης</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ίδια ημέρα</label>
+        <name>FSL__Same_Day__c</name>
+    </fields>
+    <fields>
+        <label>Ίδιος πόρος</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>Λειτουργία προγραμματισμού</label>
+        <name>FSL__Schedule_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drag and Drop</masterLabel>
+            <translation><!-- Drag and Drop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Optimization</masterLabel>
+            <translation><!-- Global Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Day Optimization</masterLabel>
+            <translation><!-- In Day Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimization</masterLabel>
+            <translation><!-- Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Optimization</masterLabel>
+            <translation><!-- Resource Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Προγραμματισμός ραντεβού χαμηλ. προτερ.</label>
+        <name>FSL__Schedule_over_lower_priority_appointment__c</name>
+    </fields>
+    <fields>
+        <label>Πολιτική προγρ. που χρησιμοποιείται</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>Ραντεβού εξυπηρέτησης</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Εξάρτηση από χρόνο</label>
+        <name>FSL__Time_Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Finish Before Start</masterLabel>
+            <translation><!-- Finish Before Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>UpdatedByOptimization</label>
+        <name>FSL__UpdatedByOptimization__c</name>
+    </fields>
+    <fields>
+        <label>Χρήση ασύγχρονης λογικής</label>
+        <name>FSL__Use_Async_Logic__c</name>
+    </fields>
+    <fields>
+        <label>Εικον. υπηρεσία για ενέργ. Chatter (SLR)</label>
+        <name>FSL__Virtual_Service_For_Chatter_Action__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>Δεν είναι δυνατή η δημιουργία νέου ραντεβού εξυπηρέτησης σε προγραμματισμένες ή απεσταλμένες καταστάσεις.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Επιλέξτε έναν έγκυρο τύπο εξάρτησης. Αν τα ραντεβού πρέπει να ανατεθούν στον ίδιο πόρο, ο τύπος εξάρτησης δεν μπορεί να είναι &quot;Ίδια έναρξη&quot;.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Η εξάρτηση από πόρο δεν είναι έγκυρη. Η εξάρτηση από χρόνο δεν μπορεί να είναι Ίδια έναρξη, όταν απαιτείται ίδιος πόρος.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Απαιτείται προγραμματισμένη έναρξη και λήξη</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Απαιτείται προγραμματισμένη έναρξη και λήξη</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Το χρώμα Gantt πρέπει να εμφανίζεται σε δεκαεξαδική μορφή: (για παράδειγμα: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Επιλέξτε σχετική υπηρεσία.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Απαιτείται το πεδίο ημερομηνίας προθεσμίας</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Απαιτείται το πεδίο διάρκειας</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Απαιτείται το πεδίο EarliestStartTime</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Η προγραμματισμένη έναρξη πρέπει να προηγείται της προγραμματισμένης λήξης.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+</CustomObjectTranslation>

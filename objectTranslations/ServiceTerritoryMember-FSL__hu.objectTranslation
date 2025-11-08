@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Belső SLR HomeAddress földrajzi hely</label>
+        <name>FSL__Internal_SLR_HomeAddress_Geolocation__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>A befejezési dátumnak kötelezően a mai naptól számított 3 éven belülre kell esnie</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Másodlagos típusú, nyitvatartási időt vagy címet tartalmazó szervizterület-tag nem menthető.</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

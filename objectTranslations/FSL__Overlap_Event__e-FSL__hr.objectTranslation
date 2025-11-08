@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Događaj preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Događaji preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Događaj preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Događaje preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Događaja preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Događaja preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Događaju preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Događajima preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Događajem preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Događajima preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Događaju preklapanja</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Događajima preklapanja</value>
+    </caseValues>
+    <fields>
+        <label>Vrsta_događaja</label>
+        <name>FSL__Event_Type__c</name>
+    </fields>
+    <fields>
+        <label>Trajanje_preklapanja_ u_minutama</label>
+        <name>FSL__Overlap_Length_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>ID_zapisa</label>
+        <name>FSL__Record_ID__c</name>
+    </fields>
+    <fields>
+        <label>ID_resursa</label>
+        <name>FSL__Resource_ID__c</name>
+    </fields>
+    <fields>
+        <label>Vremenska_zona_resursa</label>
+        <name>FSL__Resource_Time_Zone__c</name>
+    </fields>
+    <fields>
+        <label>Početak</label>
+        <name>FSL__Start__c</name>
+    </fields>
+    <fields>
+        <label>Subjekt</label>
+        <name>FSL__Subject__c</name>
+    </fields>
+    <fields>
+        <label>ID_područja</label>
+        <name>FSL__Territory_ID__c</name>
+    </fields>
+    <fields>
+        <label>Naziv_područja</label>
+        <name>FSL__Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label>ID_korisnika</label>
+        <name>FSL__User_ID__c</name>
+    </fields>
+    <fields>
+        <label>ID_vrste_posla</label>
+        <name>FSL__Work_Type_ID__c</name>
+    </fields>
+    <fields>
+        <label>Naziv_vrste_posla</label>
+        <name>FSL__Work_Type_Name__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

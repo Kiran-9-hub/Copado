@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>สมาชิกของการรวมกลุ่ม</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>รวมสมาชิกที่เป็นพี่น้องกัน</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>การรวมกลุ่มใน Lightbox</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>คอลัมน์บริการด้านขีดความสามารถ</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>ฟิลด์การค้นหางานซับซ้อน</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>การจัดการทีมงาน</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>คำแนะนำเครื่องมือการจัดการทีมงาน</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>ฟิลด์ของงานที่กำหนดไว้</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>เตรียมเลิกใช้งาน</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>ตัวกรองของ Gantt</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>เกณฑ์การเพิ่มประสิทธิภาพของการนัดหมายบริการ</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>ขยายการนัดหมายบริการ</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>คอลัมน์รายการการนัดหมายบริการ</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>ตัวอย่างรายการการนัดหมายบริการ</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>แสดงปฏิทินทรัพยากรการนัดหมายบริการ</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>คำแนะนำเครื่องมือของปฏิทินทรัพยากรการนัดหมายบริการ</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>แผนที่ช่วงเวลาของข้อมูลบริการ</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>บริการใน Lightbox</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>ที่อยู่ของบริการใน Lightbox</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>เวลาของบริการใน Lightbox</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>แผนภูมิ Gantt ของคำแนะนำเครื่องมือการบริการ</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <fields>
+        <label>เกรดการนัดหมาย</label>
+        <name>FSL__Appointment_Grade__c</name>
+    </fields>
+    <fields>
+        <label>ตารางเวลาอัตโนมัติ</label>
+        <name>FSL__Auto_Schedule__c</name>
+    </fields>
+    <fields>
+        <label>ระยะเวลาที่จัดตารางเวลาแล้ว</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>ฉุกเฉิน</label>
+        <name>FSL__Emergency__c</name>
+    </fields>
+    <fields>
+        <label>สีของ Gantt</label>
+        <name>FSL__GanttColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a URL for an icon. The URL must end in an image suffix, such as .png. --></help>
+        <label>ไอคอนของ Gantt</label>
+        <name>FSL__GanttIcon__c</name>
+    </fields>
+    <fields>
+        <label>เลเบล Gantt</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>วันที่แสดง Gantt</label>
+        <name>FSL__Gantt_Display_Date__c</name>
+    </fields>
+    <fields>
+        <label>รายละเอียดของเลเบล Gantt</label>
+        <name>FSL__Gantt_Label_Details__c</name>
+    </fields>
+    <fields>
+        <label>เหตุผลที่เสี่ยง</label>
+        <name>FSL__InJeopardyReason__c</name>
+        <picklistValues>
+            <masterLabel>Delayed Finish</masterLabel>
+            <translation><!-- Delayed Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Start</masterLabel>
+            <translation><!-- Delayed Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date Approaching</masterLabel>
+            <translation><!-- Due Date Approaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation><!-- No Response --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>เสี่ยง</label>
+        <name>FSL__InJeopardy__c</name>
+    </fields>
+    <fields>
+        <label>ตำแหน่งที่ตั้งทางภูมิศาสตร์ของ SLR ภายใน</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>เป็นผู้สมัครงานตัวแทน</label>
+        <name>FSL__IsFillInCandidate__c</name>
+    </fields>
+    <fields>
+        <label>เป็น MultiDay</label>
+        <name>FSL__IsMultiDay__c</name>
+    </fields>
+    <fields>
+        <label>ยุคที่มีการอัปเดตล่าสุด</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>ความยาวที่คำนวณได้ของการทำงานมัลติเดย์</label>
+        <name>FSL__MDS_Calculated_length__c</name>
+    </fields>
+    <fields>
+        <label>เวลาของการดำเนินการของงานแบบมัลติเดย์</label>
+        <name>FSL__MDT_Operational_Time__c</name>
+    </fields>
+    <fields>
+        <label>ปักหมุดแล้ว</label>
+        <name>FSL__Pinned__c</name>
+    </fields>
+    <fields>
+        <label>ห้ามรหัสภ.สำหรับการดำเนินการ Chatter</label>
+        <name>FSL__Prevent_Geocoding_For_Chatter_Actions__c</name>
+    </fields>
+    <fields>
+        <label>บริการที่เกี่ยวข้อง</label>
+        <name>FSL__Related_Service__c</name>
+        <relationshipLabel>การนัดหมายการบริการ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>วันเดียวกัน</label>
+        <name>FSL__Same_Day__c</name>
+    </fields>
+    <fields>
+        <label>ทรัพยากรเดียวกัน</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>โหมดตารางเวลา</label>
+        <name>FSL__Schedule_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drag and Drop</masterLabel>
+            <translation><!-- Drag and Drop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Optimization</masterLabel>
+            <translation><!-- Global Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Day Optimization</masterLabel>
+            <translation><!-- In Day Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimization</masterLabel>
+            <translation><!-- Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Optimization</masterLabel>
+            <translation><!-- Resource Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>กำหนดการอยู่เหนือการนัดที่มีความสำคัญต่ำ</label>
+        <name>FSL__Schedule_over_lower_priority_appointment__c</name>
+    </fields>
+    <fields>
+        <label>นโยบายการจัดตารางเวลาที่ใช้</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>การนัดหมายการบริการ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>การขึ้นต่อกันของเวลา</label>
+        <name>FSL__Time_Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Finish Before Start</masterLabel>
+            <translation><!-- Finish Before Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>UpdatedByOptimization</label>
+        <name>FSL__UpdatedByOptimization__c</name>
+    </fields>
+    <fields>
+        <label>ใช้ตรรกะแบบ Async</label>
+        <name>FSL__Use_Async_Logic__c</name>
+    </fields>
+    <fields>
+        <label>บริการเสมือนสำหรับการ ด. Chatter (SLR)</label>
+        <name>FSL__Virtual_Service_For_Chatter_Action__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>ไม่สามารถสร้างการนัดหมายการบริการใหม่ในสถานะของตารางเวลาหรือการจัดส่งที่ดำเนินการไปแล้ว</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>เลือกประเภทของการขึ้นต่อกันที่ถูกต้อง หากการนัดหมายจะต้องถูกมอบหมายให้กับทรัพยากรเดียวกัน ประเภทของการขึ้นต่อกันไม่สามารถมีการเริ่มต้นเดียวกันได้</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>การขึ้นต่อกันของทรัพยากรไม่ถูกต้อง การขึ้นต่อกันของเวลาไม่สามารถมีการเริ่มต้นเหมือนกันเมื่อต้องการทรัพยากรเดียวกัน</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ต้องการการจัดตารางเวลาเริ่มต้นและสิ้นสุด</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ต้องการการจัดตารางเวลาเริ่มต้นและสิ้นสุด</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>สีของ Gantt จะต้องอยู่ในรูปแบบตัวเลขฐานสิบหก: (ตัวอย่างเช่น: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>โปรดเลือกบริการที่เกี่ยวข้อง</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ต้องมีฟิลด์ DueDate</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ต้องมีฟิลด์ระยะเวลา</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ต้องมีฟิลด์ EarliestStartTime</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>การเริ่มต้นตามตารางเวลาจะต้องมาก่อนการสิ้นสุดตามตารางเวลา</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,40 @@
+<template>
+    <lightning-card >
+        <div class="slds-p-around_medium">
+            <!-- Search Input -->
+            <lightning-input 
+                label="Search for Movie" 
+                value={movieName} 
+                onchange={handleMovieNameChange}
+                placeholder="Enter movie name..."
+                class="search-bar">
+            </lightning-input>
+
+            <!-- Movie Card -->
+            <template if:true={movieDetails}>
+                <div class="movie-card">
+                    <!-- Poster on the left -->
+                    <img src={movieDetails.poster} alt="Movie Poster" class="movie-poster"/>
+
+                    <!-- Text details on the right -->
+                    <div class="movie-details">
+                        <h2>{movieDetails.title}</h2>
+                        <p><strong>Year:</strong> {movieDetails.year}</p>
+                        <p><strong>Director:</strong> {movieDetails.director}</p>
+                        <p><strong>Plot:</strong> {movieDetails.plot}</p>
+                        <p><strong>Rated:</strong> {movieDetails.Rated}</p>
+                        <p><strong>Genre:</strong> {movieDetails.genre}</p>
+                        <p><strong>Actors:</strong> {movieDetails.actors}</p>
+                        <p><strong>Language:</strong> {movieDetails.language}</p>
+                        <p><strong>Country:</strong> {movieDetails.country}</p>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Error Message -->
+            <template if:true={errorMessage}>
+                <div class="error-message">{errorMessage}</div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

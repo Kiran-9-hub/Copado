@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Info-bulle calendrier absence ressources</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox Absence de ressources</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Calendrier Absence de ressources</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <fields>
+        <label>Approuvé</label>
+        <name>FSL__Approved__c</name>
+    </fields>
+    <fields>
+        <label>Durée planifiée</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Temps de trajet estimé depuis</label>
+        <name>FSL__EstTravelTimeFrom__c</name>
+    </fields>
+    <fields>
+        <label>Temps de trajet estimé</label>
+        <name>FSL__EstTravelTime__c</name>
+    </fields>
+    <fields>
+        <label>Distance de trajet estimée depuis</label>
+        <name>FSL__EstimatedTravelDistanceFrom__c</name>
+    </fields>
+    <fields>
+        <label>Distance de trajet estimée vers</label>
+        <name>FSL__EstimatedTravelDistanceTo__c</name>
+    </fields>
+    <fields>
+        <label>Temps de trajet estimé depuis la source</label>
+        <name>FSL__Estimated_Travel_Time_From_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Temps de trajet estimé jusqu’à la source</label>
+        <name>FSL__Estimated_Travel_Time_To_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Étiquette de Gantt</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Couleur du diagramme de Gantt</label>
+        <name>FSL__Gantt_Color__c</name>
+    </fields>
+    <fields>
+        <label>Géolocalisation SLR interne</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>Époque de dernière mise à jour</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Stratégie de planification utilisée</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>Absences de ressource</relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label>Pause</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Non disponible</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>La couleur du diagramme de Gantt doit être au format hexadécimal : (par exemple : #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>L’heure de début doit être antérieure à l’heure de fin.</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

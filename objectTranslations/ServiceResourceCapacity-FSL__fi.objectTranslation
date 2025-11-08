@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Tuntia käytössä</label>
+        <name>FSL__HoursInUse__c</name>
+    </fields>
+    <fields>
+        <label>Viimeksi päivitetty aikakausi</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Minuuttia käytössä</label>
+        <name>FSL__MinutesUsed__c</name>
+    </fields>
+    <fields>
+        <label>Allokoidut työnimikkeet</label>
+        <name>FSL__Work_Items_Allocated__c</name>
+    </fields>
+</CustomObjectTranslation>

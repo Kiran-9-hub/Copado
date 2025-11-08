@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Buat Peristiwa Filter</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Buat Peristiwa Filter</value>
+    </caseValues>
+    <fields>
+        <label>Id Daftar Janji Temu</label>
+        <name>FSL__AppointmentListId__c</name>
+    </fields>
+    <fields>
+        <label>Deskripsi</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Kategori Filter</label>
+        <name>FSL__FilterCategory__c</name>
+    </fields>
+    <fields>
+        <label>Nama Filter</label>
+        <name>FSL__FilterName__c</name>
+    </fields>
+    <fields>
+        <label>Muat Filter Segera</label>
+        <name>FSL__LoadFilterImmediately__c</name>
+    </fields>
+    <fields>
+        <label>Id Layanan</label>
+        <name>FSL__ServiceApptIds__c</name>
+    </fields>
+    <fields>
+        <label>Id Wilayah</label>
+        <name>FSL__TerritoryIds__c</name>
+    </fields>
+</CustomObjectTranslation>

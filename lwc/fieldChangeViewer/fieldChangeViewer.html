@@ -1,0 +1,103 @@
+<template>
+    <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-center slds-size_1-of-1 slds-height_full">
+        <lightning-card title="🔍 Field Change Tracker" icon-name="utility:track_changes">
+
+            <!-- 🔘 Add Tracking Config Button -->
+            <div class="slds-m-around_medium slds-grid slds-grid_align-end">
+                <lightning-button
+                    variant="brand"
+                    label="➕ Add Tracking Configuration"
+                    title="Add Configuration"
+                    onclick={handleAddConfig}>
+                </lightning-button>
+            </div>
+
+            <!-- 🔍 Search Filters -->
+            <div class="slds-grid slds-wrap slds-p-around_medium slds-gutters">
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-combobox
+                        name="objectName"
+                        label="Object Name"
+                        value={objectName}
+                        placeholder="Select Object"
+                        options={objectOptions}
+                        onchange={handleObjectChange}>
+                    </lightning-combobox>
+                </div>
+
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-input
+                        label="Field Name"
+                        value={fieldName}
+                        onchange={handleFieldNameChange}>
+                    </lightning-input>
+                </div>
+
+                <div class="slds-col slds-size_1-of-2 slds-m-top_small">
+                    <lightning-input
+                        type="date"
+                        label="Start Date"
+                        value={startDate}
+                        onchange={handleStartDateChange}>
+                    </lightning-input>
+                </div>
+
+                <div class="slds-col slds-size_1-of-2 slds-m-top_small">
+                    <lightning-input
+                        type="date"
+                        label="End Date"
+                        value={endDate}
+                        onchange={handleEndDateChange}>
+                    </lightning-input>
+                </div>
+
+                <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-m-top_medium">
+                    <lightning-button
+                        variant="brand"
+                        label="Search"
+                        title="Search"
+                        onclick={handleSearch}>
+                    </lightning-button>
+                </div>
+            </div>
+
+            <!-- 📋 Results -->
+            <template if:true={fieldChanges}>
+                <div class="slds-p-horizontal_medium">
+                    <lightning-datatable
+                        key-field="Id"
+                        data={fieldChanges}
+                        columns={columns}
+                        hide-checkbox-column="true"
+                        class="slds-m-top_medium">
+                    </lightning-datatable>
+                </div>
+            </template>
+
+            <!-- ⚠️ Empty State -->
+            <template if:true={isEmpty}>
+                <div class="slds-p-around_medium slds-text-align_center">
+                    <p class="slds-text-color_error">⚠️ No records found for the selected filters.</p>
+                </div>
+            </template>
+        </lightning-card>
+    </div>
+
+    <!-- 📦 Modal for Field Tracking Form -->
+    <template if:true={showModal}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 class="slds-modal__title slds-hyphenate">➕ Add Field Tracking Configuration</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium">
+                    <c-field-tracking-form onconfigsaved={handleConfigSaved}></c-field-tracking-form>
+                </div>
+                <footer class="slds-modal__footer">
+                    <lightning-button variant="neutral" label="Cancel" onclick={handleCloseModal}></lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

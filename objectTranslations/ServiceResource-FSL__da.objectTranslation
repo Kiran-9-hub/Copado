@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Bemandingsstyringsressource Lightbox</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Nødhjælpsfelter</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Hent oplysninger om kandidatressource</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-ressourcefilter</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Ressource Lightbox</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <fields>
+        <label>Effektivitet</label>
+        <name>FSL__Efficiency__c</name>
+    </fields>
+    <fields>
+        <label>Gantt-betegnelse</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Online forskydning</label>
+        <name>FSL__Online_Offset__c</name>
+    </fields>
+    <fields>
+        <label>Billedlink</label>
+        <name>FSL__Picture_Link__c</name>
+    </fields>
+    <fields>
+        <label>Prioritet</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Rejsehastighed</label>
+        <name>FSL__Travel_Speed__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>Kapacitetsressource kan ikke være af typen bemanding</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Hastighed for ressourcerejse skal være større end 0</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

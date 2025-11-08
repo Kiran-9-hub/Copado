@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>필터 만들기 이벤트</value>
+    </caseValues>
+    <fields>
+        <label>약속 목록 ID</label>
+        <name>FSL__AppointmentListId__c</name>
+    </fields>
+    <fields>
+        <label>설명</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>범주 필터링</label>
+        <name>FSL__FilterCategory__c</name>
+    </fields>
+    <fields>
+        <label>필터 이름</label>
+        <name>FSL__FilterName__c</name>
+    </fields>
+    <fields>
+        <label>즉시 필터 로드</label>
+        <name>FSL__LoadFilterImmediately__c</name>
+    </fields>
+    <fields>
+        <label>서비스 ID</label>
+        <name>FSL__ServiceApptIds__c</name>
+    </fields>
+    <fields>
+        <label>영역 ID</label>
+        <name>FSL__TerritoryIds__c</name>
+    </fields>
+</CustomObjectTranslation>

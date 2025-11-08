@@ -1,0 +1,9 @@
+<template>
+    <template if:true={contacts}>
+        <h1>Contacts</h1>
+        <template for:each={contacts} for:item="contact">
+            <p key={contact.Id}>{contact.FirstName}</p>
+        </template>
+    </template>
+   
+</template>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Bundelleden</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Verwante bundelleden</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Bundler-lightbox</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Servicekolommen voor capaciteit</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Opzoekvelden voor complex werk</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Ploegbeheer</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Knopinfo ploegbeheer</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Velden voor aangewezen werk</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Verouderd</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-filter</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Criteria voor optimalisatie van serviceafspraken</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Serviceafspraak uitgevouwen</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kolommen in serviceafsprakenlijst</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Voorbeeldweergave serviceafsprakenlijst</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Agendaweergave serviceafspraak resource</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Agendaknopinfo serviceafspraak resource</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kaart service-infovenster</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service-lightbox</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service Lightbox-adres</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service Lightbox-tijd</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service-knopinfo voor Gantt</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <fields>
+        <label>Afspraakpercentage</label>
+        <name>FSL__Appointment_Grade__c</name>
+    </fields>
+    <fields>
+        <label>Automatische planning</label>
+        <name>FSL__Auto_Schedule__c</name>
+    </fields>
+    <fields>
+        <label>Geplande duur</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Noodgeval</label>
+        <name>FSL__Emergency__c</name>
+    </fields>
+    <fields>
+        <label>Gantt-kleur</label>
+        <name>FSL__GanttColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a URL for an icon. The URL must end in an image suffix, such as .png. --></help>
+        <label>Gantt-pictogram</label>
+        <name>FSL__GanttIcon__c</name>
+    </fields>
+    <fields>
+        <label>Gantt-label</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Weergavedatum van Gantt-diagram</label>
+        <name>FSL__Gantt_Display_Date__c</name>
+    </fields>
+    <fields>
+        <label>Details van Gantt-label</label>
+        <name>FSL__Gantt_Label_Details__c</name>
+    </fields>
+    <fields>
+        <label>Reden In gevaar</label>
+        <name>FSL__InJeopardyReason__c</name>
+        <picklistValues>
+            <masterLabel>Delayed Finish</masterLabel>
+            <translation><!-- Delayed Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Start</masterLabel>
+            <translation><!-- Delayed Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date Approaching</masterLabel>
+            <translation><!-- Due Date Approaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation><!-- No Response --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>In gevaar</label>
+        <name>FSL__InJeopardy__c</name>
+    </fields>
+    <fields>
+        <label>Interne SLR-Geolocatie</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>Is invalkandidaat</label>
+        <name>FSL__IsFillInCandidate__c</name>
+    </fields>
+    <fields>
+        <label>Is MultiDay</label>
+        <name>FSL__IsMultiDay__c</name>
+    </fields>
+    <fields>
+        <label>Laatste bijgewerkte epoch</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Berekende duur van meerdaags werk</label>
+        <name>FSL__MDS_Calculated_length__c</name>
+    </fields>
+    <fields>
+        <label>Berekende oper. tijd van meerdaags werk</label>
+        <name>FSL__MDT_Operational_Time__c</name>
+    </fields>
+    <fields>
+        <label>Vastgezet</label>
+        <name>FSL__Pinned__c</name>
+    </fields>
+    <fields>
+        <label>Voorkom Geocodering voor chatteracties</label>
+        <name>FSL__Prevent_Geocoding_For_Chatter_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Gerelateerde service</label>
+        <name>FSL__Related_Service__c</name>
+        <relationshipLabel>Serviceafspraken</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dezelfde dag</label>
+        <name>FSL__Same_Day__c</name>
+    </fields>
+    <fields>
+        <label>Dezelfde resource</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>Planningsmodus</label>
+        <name>FSL__Schedule_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drag and Drop</masterLabel>
+            <translation><!-- Drag and Drop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Optimization</masterLabel>
+            <translation><!-- Global Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Day Optimization</masterLabel>
+            <translation><!-- In Day Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimization</masterLabel>
+            <translation><!-- Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Optimization</masterLabel>
+            <translation><!-- Resource Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Plannen via afspraak met lagere priorit.</label>
+        <name>FSL__Schedule_over_lower_priority_appointment__c</name>
+    </fields>
+    <fields>
+        <label>Gebruikt planningsbeleid</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>Serviceafspraken</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tijdsafhankelijkheid</label>
+        <name>FSL__Time_Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Finish Before Start</masterLabel>
+            <translation><!-- Finish Before Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>UpdatedByOptimization</label>
+        <name>FSL__UpdatedByOptimization__c</name>
+    </fields>
+    <fields>
+        <label>Asynchrone logica gebruiken</label>
+        <name>FSL__Use_Async_Logic__c</name>
+    </fields>
+    <fields>
+        <label>Virtuele service voor Chatter-actie(SLR)</label>
+        <name>FSL__Virtual_Service_For_Chatter_Action__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>Nieuwe serviceafspraak kan niet worden gemaakt bij status Gepland of Uitgezonden</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Selecteer een geldig afhankelijkheidstype. Als de afspraken moeten worden toegewezen aan dezelfde resource, mag het afhankelijkheidstype niet Zelfde start zijn.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Resourceafhankelijkheid is ongeldig. Tijdsafhankelijkheid kan niet Zelfde begin zijn wanneer dezelfde resource is vereist.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Zowel geplande start als einde is verplicht</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Zowel geplande start als einde is verplicht</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Gantt-kleur moet het hexadecimale formaat hebben: (bijvoorbeeld: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Selecteer Gerelateerde service.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Veld DueDate is verplicht</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Veld Duration is verplicht</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Veld EarliestStartTime is verplicht</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Het geplande begin moet vroeger vallen dan het geplande einde.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+</CustomObjectTranslation>

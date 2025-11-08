@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Rendering List through for:each">
+        <ul class="slds-m-around_medium">
+
+            <template for:each={contacts} for:item="contact">
+                <li key={contact.id}>
+                    <p class="slds-text-heading_medium">{contact.name}</p>
+                    <p class="slds-text-body_regular">{contact.title}</p>
+                </li>
+            </template>
+
+            <template if:true={contacts.length}>
+                <p class="slds-text-body_regular">Total Contacts: {contacts.length}</p>
+            </template>
+
+        </ul>
+    </lightning-card>
+</template>

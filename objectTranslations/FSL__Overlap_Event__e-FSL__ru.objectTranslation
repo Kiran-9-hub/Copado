@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Событие с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>События с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Событие с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>События с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>События с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Событий с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Событию с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Событиям с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Событием с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Событиями с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Событии с перекрытием</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Событиях с перекрытием</value>
+    </caseValues>
+    <fields>
+        <label>Тип события</label>
+        <name>FSL__Event_Type__c</name>
+    </fields>
+    <fields>
+        <label>Продолжительность перекрытия в минутах</label>
+        <name>FSL__Overlap_Length_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Код записи</label>
+        <name>FSL__Record_ID__c</name>
+    </fields>
+    <fields>
+        <label>Код ресурса</label>
+        <name>FSL__Resource_ID__c</name>
+    </fields>
+    <fields>
+        <label>Часовой пояс ресурса</label>
+        <name>FSL__Resource_Time_Zone__c</name>
+    </fields>
+    <fields>
+        <label>Начало</label>
+        <name>FSL__Start__c</name>
+    </fields>
+    <fields>
+        <label>Тема</label>
+        <name>FSL__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Код территории</label>
+        <name>FSL__Territory_ID__c</name>
+    </fields>
+    <fields>
+        <label>Имя территории</label>
+        <name>FSL__Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label>Код пользователя</label>
+        <name>FSL__User_ID__c</name>
+    </fields>
+    <fields>
+        <label>Код типа работы</label>
+        <name>FSL__Work_Type_ID__c</name>
+    </fields>
+    <fields>
+        <label>Название типа работы</label>
+        <name>FSL__Work_Type_Name__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

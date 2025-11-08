@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Field Tracker Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Field Tracker Configuration</value>
+    </caseValues>
+    <fields>
+        <label><!-- Tracked Field Name --></label>
+        <name>Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracked Is Critical --></label>
+        <name>Is_Critical__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracked Object Name --></label>
+        <name>Object_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

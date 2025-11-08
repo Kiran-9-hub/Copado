@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Checklistitem Aan de slag voor NPSP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Checklistitems Aan de slag voor NPSP</value>
+    </caseValues>
+    <fields>
+        <help><!-- The API Name for the Description label of this item on the Get Started page. Must match an imported label in the gsLabelMapper LWC. --></help>
+        <label>Naam beschrijvingslabel</label>
+        <name>npsp__Description_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the Extra Info Label, which provides extra information about a section item (such as video length, PDF, etc). Shown in the upper right corner. --></help>
+        <label>Naam extra-infolabel</label>
+        <name>npsp__Extra_Info_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- The section on the Get Started page that this item is part of. --></help>
+        <label>Sectie GS-checklist</label>
+        <name>npsp__GS_Checklist_Section__c</name>
+        <relationshipLabel>Items GS-checklist</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the item has a link to display. --></help>
+        <label>Bevat koppeling</label>
+        <name>npsp__Has_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- The filename of the image in the CumulusResources Static Resource (in the gsAssets/step folder) to render. --></help>
+        <label>Afbeelding</label>
+        <name>npsp__Image__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name for the Link label of a link on the Get Started page. Must match an imported label in the gsLabelMapper LWC. --></help>
+        <label>Naam koppelingslabel</label>
+        <name>npsp__Link_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- The target URL for a link on the Get Started page. --></help>
+        <label>URL van koppeling</label>
+        <name>npsp__Link_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- The position of this section item on the Get Started page. --></help>
+        <label>Positie</label>
+        <name>npsp__Position__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name for the Primary Button label in a section item on the Get Started page. Must match an imported label in the gsLabelMapper LWC. --></help>
+        <label>Naam primaire-knoplabel</label>
+        <name>npsp__Primary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of action related to the Primary Button. Indicates if the button is disabled, opens a new Salesforce tab, or opens an external page. --></help>
+        <label>Type primaire knop</label>
+        <name>npsp__Primary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation><!-- External Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation><!-- SFDC New Tab --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The action of the Primary Button.
+For an External Page button, the external URL.
+For an SFDC New Tab button, the format is &quot;{pageReference}:{objectOrPageApiName}:{action}&quot;. See the Lightning NavigationMixin Documentation for examples and all specs. --></help>
+        <label>Waarde primaire knop</label>
+        <name>npsp__Primary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name for the Secondary Button label in a section item on the Get Started page. Must match an imported label in the gsLabelMapper LWC. --></help>
+        <label>Naam secundaire-knoplabel</label>
+        <name>npsp__Secondary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of action related to the Secondary Button. Indicates if the button is disabled, opens a new Salesforce tab, or opens an external page --></help>
+        <label>Type secundaire knop</label>
+        <name>npsp__Secondary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation><!-- External Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation><!-- SFDC New Tab --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The action of the Secondary Button.
+For an External Page button, the external URL.
+For an SFDC New Tab button, the format is &quot;{pageReference}:{objectOrPageApiName}:{action}&quot;. See the Lightning NavigationMixin Documentation for examples and all specs. --></help>
+        <label>Waarde secundaire knop</label>
+        <name>npsp__Secondary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name for the Title label of a section item on the Get Started page. Must match an imported label in the gsLabelMapper LWC. --></help>
+        <label>Naam titellabel</label>
+        <name>npsp__Title_Label__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

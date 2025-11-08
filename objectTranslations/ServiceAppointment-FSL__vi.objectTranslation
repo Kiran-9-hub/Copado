@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Thành Viên Gói</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Anh Chị Em Thành Viên Gói</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Trình Tạo Gói</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Cột Năng Suất Dịch Vụ</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Trường Tra Cứu Công Việc Phức Tạp</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Quản Lý Nhóm</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Chú Giải Quản Lý Nhóm</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Trường Công Việc Được Chỉ Định</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Không Khuyến Khích</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Bộ Lọc Gantt</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Tiêu Chí Tối Ưu Hóa Cuộc Hẹn Dịch Vụ</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Đã Mở Rộng Cuộc Hẹn Dịch Vụ</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Cột Danh Sách Cuộc Hẹn Dịch Vụ</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Xem Trước Danh Sách Cuộc Hẹn Dịch Vụ</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Hiển Thị Cuộc Hẹn Dịch Vụ Trên Lịch Nhân Sự</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Chú Giải Cuộc Hẹn Dịch Vụ Trên Lịch Nhân Sự</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Khung Thông Tin Dịch Vụ Trên Bản Đồ</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Dịch Vụ</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Dịch Vụ Trong Địa Chỉ</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Dịch Vụ Trong Thời Gian</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Chú Giải Dịch Vụ Trên Gantt</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <fields>
+        <label>Cấp Độ Cuộc Hẹn</label>
+        <name>FSL__Appointment_Grade__c</name>
+    </fields>
+    <fields>
+        <label>Tự Động Lên Lịch</label>
+        <name>FSL__Auto_Schedule__c</name>
+    </fields>
+    <fields>
+        <label>Thời Lượng Đã Lên Lịch</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Trường Hợp Khẩn Cấp</label>
+        <name>FSL__Emergency__c</name>
+    </fields>
+    <fields>
+        <label>Màu Gantt</label>
+        <name>FSL__GanttColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a URL for an icon. The URL must end in an image suffix, such as .png. --></help>
+        <label>Biểu Tượng Gantt</label>
+        <name>FSL__GanttIcon__c</name>
+    </fields>
+    <fields>
+        <label>Nhãn Gantt</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Ngày Hiển Thị Trên Gantt</label>
+        <name>FSL__Gantt_Display_Date__c</name>
+    </fields>
+    <fields>
+        <label>Chi Tiết Nhãn Gantt</label>
+        <name>FSL__Gantt_Label_Details__c</name>
+    </fields>
+    <fields>
+        <label>Lý Do Bị Lỗi</label>
+        <name>FSL__InJeopardyReason__c</name>
+        <picklistValues>
+            <masterLabel>Delayed Finish</masterLabel>
+            <translation><!-- Delayed Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Start</masterLabel>
+            <translation><!-- Delayed Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Date Approaching</masterLabel>
+            <translation><!-- Due Date Approaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response</masterLabel>
+            <translation><!-- No Response --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Bị Lỗi</label>
+        <name>FSL__InJeopardy__c</name>
+    </fields>
+    <fields>
+        <label>Vị Trí Địa Lý SLR Nội Bộ</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>Điền Ứng Viên</label>
+        <name>FSL__IsFillInCandidate__c</name>
+    </fields>
+    <fields>
+        <label>Là Nhiều Ngày</label>
+        <name>FSL__IsMultiDay__c</name>
+    </fields>
+    <fields>
+        <label>Giai Đoạn Được Cập Nhật Gần Đây Nhất</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Độ dài Đã Tính Của Công Việc Nhiều Ngày</label>
+        <name>FSL__MDS_Calculated_length__c</name>
+    </fields>
+    <fields>
+        <label>T.Gian H.Động Của Công Việc Nhiều Ngày</label>
+        <name>FSL__MDT_Operational_Time__c</name>
+    </fields>
+    <fields>
+        <label>Đã Ghim</label>
+        <name>FSL__Pinned__c</name>
+    </fields>
+    <fields>
+        <label>Ngăn Mã Hóa Vị Trí Cho HĐ Của Chatter</label>
+        <name>FSL__Prevent_Geocoding_For_Chatter_Actions__c</name>
+    </fields>
+    <fields>
+        <label>Dịch Vụ Liên Quan</label>
+        <name>FSL__Related_Service__c</name>
+        <relationshipLabel>Cuộc Hẹn Dịch Vụ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cùng Ngày</label>
+        <name>FSL__Same_Day__c</name>
+    </fields>
+    <fields>
+        <label>Cùng Nhân Sự</label>
+        <name>FSL__Same_Resource__c</name>
+    </fields>
+    <fields>
+        <label>Chế Độ Lên Lịch</label>
+        <name>FSL__Schedule_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Automatic</masterLabel>
+            <translation><!-- Automatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drag and Drop</masterLabel>
+            <translation><!-- Drag and Drop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Optimization</masterLabel>
+            <translation><!-- Global Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Day Optimization</masterLabel>
+            <translation><!-- In Day Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimization</masterLabel>
+            <translation><!-- Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Optimization</masterLabel>
+            <translation><!-- Resource Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Lên Lịch Cho Cuộc Hẹn Ưu Tiên Thấp Hơn</label>
+        <name>FSL__Schedule_over_lower_priority_appointment__c</name>
+    </fields>
+    <fields>
+        <label>Chính Sách Lên Lịch Đã Sử Dụng</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>Cuộc Hẹn Dịch Vụ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Phụ Thuộc Vào Thời Gian</label>
+        <name>FSL__Time_Dependency__c</name>
+        <picklistValues>
+            <masterLabel>Finish Before Start</masterLabel>
+            <translation><!-- Finish Before Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Start</masterLabel>
+            <translation><!-- Same Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start After Finish</masterLabel>
+            <translation><!-- Start After Finish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>UpdatedByOptimization</label>
+        <name>FSL__UpdatedByOptimization__c</name>
+    </fields>
+    <fields>
+        <label>Sử Dụng Logic Không Đồng Bộ Hóa</label>
+        <name>FSL__Use_Async_Logic__c</name>
+    </fields>
+    <fields>
+        <label>Dịch Vụ Ảo Dành Cho HĐ của Chatter (SLR)</label>
+        <name>FSL__Virtual_Service_For_Chatter_Action__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>Không thể tạo cuộc hẹn dịch vụ mới ở các trạng thái đã lên lịch hoặc đã gửi đi.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Chọn loại phụ thuộc hợp lệ. Nếu phải chỉ định các cuộc hẹn cho cùng một nhân sự, loại phụ thuộc không được là Cùng Thời Điểm Bắt Đầu.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Phần phụ thuộc tài nguyên không hợp lệ. Phụ Thuộc Thời Gian không thể là Cùng Thời Điểm Bắt Đầu nếu bắt buộc phải sử dụng cùng một nhân sự.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Cả thời gian bắt đầu và kết thúc theo lịch đều là bắt buộc</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Cả thời gian bắt đầu và kết thúc theo lịch đều là bắt buộc</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Màu Gantt phải ở định dạng thập lục phân: (ví dụ: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vui lòng chọn Dịch Vụ Liên Quan.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trường DueDate là bắt buộc</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trường Duration là bắt buộc</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trường EarliestStartTime là bắt buộc</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Thời Gian Bắt Đầu Theo Lịch phải sớm hơn Thời Gian Kết Thúc Theo Lịch.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+</CustomObjectTranslation>

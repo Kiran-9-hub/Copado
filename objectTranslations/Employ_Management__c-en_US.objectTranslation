@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Employ Management</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Employ Managements</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date Of Joining --></label>
+        <name>Date_Of_Joining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Name --></label>
+        <name>Employee_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio --></label>
+        <name>Portfolio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salary --></label>
+        <name>Salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skill --></label>
+        <name>Skill__c</name>
+        <picklistValues>
+            <masterLabel>JAVA</masterLabel>
+            <translation><!-- JAVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MERN</masterLabel>
+            <translation><!-- MERN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PYTHON</masterLabel>
+            <translation><!-- PYTHON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALESFORCE</masterLabel>
+            <translation><!-- SALESFORCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TESTING</masterLabel>
+            <translation><!-- TESTING --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

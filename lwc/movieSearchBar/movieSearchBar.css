@@ -1,0 +1,56 @@
+.search-bar {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 700px;
+    min-height: 350px;
+    background-color: #f5f9f4;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 2rem auto 0 auto;
+    text-align: left;
+}
+
+.movie-poster {
+    width: 190px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.movie-details {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: 320px;
+}
+
+.movie-details h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: 900;
+    color: red;
+}
+
+.movie-details p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #34495e;
+    line-height: 1.4;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Créer une Lightbox Gestion de l’équipe</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Champs d’urgence</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Obtenir les détails des ressources candidates</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Filtre du Gantt des ressources</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox des ressources</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <fields>
+        <label>Efficacité</label>
+        <name>FSL__Efficiency__c</name>
+    </fields>
+    <fields>
+        <label>Étiquette de Gantt</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Décalage en ligne</label>
+        <name>FSL__Online_Offset__c</name>
+    </fields>
+    <fields>
+        <label>Lien de l’image</label>
+        <name>FSL__Picture_Link__c</name>
+    </fields>
+    <fields>
+        <label>Priorité</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Vitesse de déplacement</label>
+        <name>FSL__Travel_Speed__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>La ressource en capacité ne peut pas être de type Équipe</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La vitesse de déplacement de la ressource doit être supérieure à 0.</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

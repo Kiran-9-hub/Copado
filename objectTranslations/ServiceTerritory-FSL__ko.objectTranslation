@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>긴급 맵 숨기기</label>
+        <name>FSL__Hide_Emergency_Map__c</name>
+    </fields>
+    <fields>
+        <label>내부 SLR HomeAddress 위치 정보</label>
+        <name>FSL__Internal_SLR_Geolocation__c</name>
+    </fields>
+    <fields>
+        <label>드립 피드할 서비스 수</label>
+        <name>FSL__NumberOfServicesToDripFeed__c</name>
+    </fields>
+    <fields>
+        <label>향상된 일정 및 최적화 사용</label>
+        <name>FSL__O2_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>서비스 클러스터 최소 크기(마감된 파일럿)</label>
+        <name>FSL__Service_Cluster_Min_Size__c</name>
+    </fields>
+    <fields>
+        <label>서비스 클러스터 근접 연결(마감된 파일럿)</label>
+        <name>FSL__Service_Cluster_Proximity__c</name>
+    </fields>
+    <fields>
+        <label>시스템 작업</label>
+        <name>FSL__System_Jobs__c</name>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesDispatched</masterLabel>
+            <translation><!-- BATCH_ServicesDispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesInJeopardy</masterLabel>
+            <translation><!-- BATCH_ServicesInJeopardy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChatterNotification</masterLabel>
+            <translation><!-- ChatterNotification --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>영역 수준</label>
+        <name>FSL__TerritoryLevel__c</name>
+    </fields>
+</CustomObjectTranslation>

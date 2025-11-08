@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>크루 관리 자원 라이트 박스</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>긴급 필드</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>후보 확보 자원 세부 사항</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>자원 Gantt 필터</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>자원 라이트 박스</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <fields>
+        <label>효율성</label>
+        <name>FSL__Efficiency__c</name>
+    </fields>
+    <fields>
+        <label>Gantt 레이블</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>온라인 오프셋</label>
+        <name>FSL__Online_Offset__c</name>
+    </fields>
+    <fields>
+        <label>그림 링크</label>
+        <name>FSL__Picture_Link__c</name>
+    </fields>
+    <fields>
+        <label>우선 순위</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>이동 속도</label>
+        <name>FSL__Travel_Speed__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>성능 자원은 직원 유형일 수 없음</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>자원 이동 속도가 0보다 커야 합니다.</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

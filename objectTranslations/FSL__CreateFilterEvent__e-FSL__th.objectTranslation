@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>สร้างเหตุการณ์ของตัวกรอง</value>
+    </caseValues>
+    <fields>
+        <label>รหัสประจำรายการการนัดหมาย</label>
+        <name>FSL__AppointmentListId__c</name>
+    </fields>
+    <fields>
+        <label>คำอธิบาย</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>หมวดหมู่ของตัวกรอง</label>
+        <name>FSL__FilterCategory__c</name>
+    </fields>
+    <fields>
+        <label>ชื่อตัวกรอง</label>
+        <name>FSL__FilterName__c</name>
+    </fields>
+    <fields>
+        <label>โหลดตัวกรองทันที</label>
+        <name>FSL__LoadFilterImmediately__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำการบริการ</label>
+        <name>FSL__ServiceApptIds__c</name>
+    </fields>
+    <fields>
+        <label>รหัสประจำพื้นที่</label>
+        <name>FSL__TerritoryIds__c</name>
+    </fields>
+</CustomObjectTranslation>

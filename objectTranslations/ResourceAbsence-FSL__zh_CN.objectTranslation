@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>缺勤资源日历工具提示</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>资源缺勤 Lightbox</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>资源缺勤资源日历</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <fields>
+        <label>已批准</label>
+        <name>FSL__Approved__c</name>
+    </fields>
+    <fields>
+        <label>已计划持续时间</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>预计出差时间自</label>
+        <name>FSL__EstTravelTimeFrom__c</name>
+    </fields>
+    <fields>
+        <label>预计出差时间</label>
+        <name>FSL__EstTravelTime__c</name>
+    </fields>
+    <fields>
+        <label>预计出差距离自</label>
+        <name>FSL__EstimatedTravelDistanceFrom__c</name>
+    </fields>
+    <fields>
+        <label>预计出差距离至</label>
+        <name>FSL__EstimatedTravelDistanceTo__c</name>
+    </fields>
+    <fields>
+        <label>预计距离源位置的出差时间</label>
+        <name>FSL__Estimated_Travel_Time_From_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>预计抵达源位置的出差时间</label>
+        <name>FSL__Estimated_Travel_Time_To_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>甘特表标签</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>甘特表颜色</label>
+        <name>FSL__Gantt_Color__c</name>
+    </fields>
+    <fields>
+        <label>内部 SLR 地理位置</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>上次已更新纪元</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>正在计划使用的策略</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>资源缺乏</relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label>休息</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>不可用性</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>甘特表颜色必须按照十六进制格式：(例如：#ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>开始时间必须早于结束时间。</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

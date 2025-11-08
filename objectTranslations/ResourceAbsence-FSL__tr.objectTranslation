@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>İzin Kaynak Takvimi Araç İpucu</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kaynak İzni Lightbox</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kaynak İzni Kaynak Takvimi</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <fields>
+        <label>Onaylandı</label>
+        <name>FSL__Approved__c</name>
+    </fields>
+    <fields>
+        <label>Zamanlanan Süre</label>
+        <name>FSL__Duration_In_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Başlangıçtan Tahmini Yolculuk Süresi</label>
+        <name>FSL__EstTravelTimeFrom__c</name>
+    </fields>
+    <fields>
+        <label>Tahmini Yolculuk Süresi</label>
+        <name>FSL__EstTravelTime__c</name>
+    </fields>
+    <fields>
+        <label>Başlangıçtan Tahmini Yolculuk Mesafesi</label>
+        <name>FSL__EstimatedTravelDistanceFrom__c</name>
+    </fields>
+    <fields>
+        <label>Hedefe Tahmini Yolculuk Mesafesi</label>
+        <name>FSL__EstimatedTravelDistanceTo__c</name>
+    </fields>
+    <fields>
+        <label>Kaynaktan Tahmini Yolculuk Süresi</label>
+        <name>FSL__Estimated_Travel_Time_From_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Kaynağa Tahmini Yolculuk Süresi</label>
+        <name>FSL__Estimated_Travel_Time_To_Source__c</name>
+        <picklistValues>
+            <masterLabel>Aerial</masterLabel>
+            <translation><!-- Aerial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLR</masterLabel>
+            <translation><!-- SLR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Gantt Etiketi</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Gantt Rengi</label>
+        <name>FSL__Gantt_Color__c</name>
+    </fields>
+    <fields>
+        <label>Dahili SLR Konum Belirleme</label>
+        <name>FSL__InternalSLRGeolocation__c</name>
+    </fields>
+    <fields>
+        <label>Son Güncellenen Epoch</label>
+        <name>FSL__Last_Updated_Epoch__c</name>
+    </fields>
+    <fields>
+        <label>Kullanılan Zamanlama Politikası</label>
+        <name>FSL__Scheduling_Policy_Used__c</name>
+        <relationshipLabel>Kaynak İzinleri</relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label>Ara</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Bulunmama</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Gantt rengi onaltılık formatta olmalıdır: (örneğin: #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Başlangıç Zamanı Bitiş Zamanından önce olmalıdır</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

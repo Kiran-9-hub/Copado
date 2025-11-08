@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Lightbox voor resources in ploegbeheer</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Velden voor noodgevallen</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Resourcedetails voor Kandidaten ophalen</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-filter voor resources</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox voor resources</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <fields>
+        <label>Efficiency</label>
+        <name>FSL__Efficiency__c</name>
+    </fields>
+    <fields>
+        <label>Gantt-label</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Online verschuiving</label>
+        <name>FSL__Online_Offset__c</name>
+    </fields>
+    <fields>
+        <label>Koppeling afbeelding</label>
+        <name>FSL__Picture_Link__c</name>
+    </fields>
+    <fields>
+        <label>Prioriteit</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Reissnelheid</label>
+        <name>FSL__Travel_Speed__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>Capaciteitsresource mag niet van het type Ploeg zijn</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Reissnelheid van resource moet groter zijn dan 0.</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

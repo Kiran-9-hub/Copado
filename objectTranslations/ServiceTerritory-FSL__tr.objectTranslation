@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Acil Durum Haritasını Gizle</label>
+        <name>FSL__Hide_Emergency_Map__c</name>
+    </fields>
+    <fields>
+        <label>Dahili SLR Ev Adresi Konum Belirleme</label>
+        <name>FSL__Internal_SLR_Geolocation__c</name>
+    </fields>
+    <fields>
+        <label>Damla Akışı yapılacak Hizmet Sayısı</label>
+        <name>FSL__NumberOfServicesToDripFeed__c</name>
+    </fields>
+    <fields>
+        <label>Gelişmiş zamanla ve optimizasyonu kullan</label>
+        <name>FSL__O2_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Hizmet Kümesi Min. Boyut (Kapalı Pilot)</label>
+        <name>FSL__Service_Cluster_Min_Size__c</name>
+    </fields>
+    <fields>
+        <label>Hizmet Kümesi Yakınlığı (Kapalı Pilot)</label>
+        <name>FSL__Service_Cluster_Proximity__c</name>
+    </fields>
+    <fields>
+        <label>Sistem İşleri</label>
+        <name>FSL__System_Jobs__c</name>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesDispatched</masterLabel>
+            <translation><!-- BATCH_ServicesDispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesInJeopardy</masterLabel>
+            <translation><!-- BATCH_ServicesInJeopardy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChatterNotification</masterLabel>
+            <translation><!-- ChatterNotification --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Bölge Seviyesi</label>
+        <name>FSL__TerritoryLevel__c</name>
+    </fields>
+</CustomObjectTranslation>

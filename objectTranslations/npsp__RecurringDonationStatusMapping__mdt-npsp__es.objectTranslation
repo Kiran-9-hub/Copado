@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Asignación de estado de Donación recurrente</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Asignaciones de estados de Donaciones recurrentes</value>
+    </caseValues>
+    <fields>
+        <help><!-- Valid entries are Active, Lapsed, and Closed. --></help>
+        <label>Situación de Donación recurrente</label>
+        <name>npsp__State__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lapsed</masterLabel>
+            <translation><!-- Lapsed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- API name of the Recurring Donation Status that is mapped to a State. --></help>
+        <label>Estado de Donación recurrente</label>
+        <name>npsp__Status__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

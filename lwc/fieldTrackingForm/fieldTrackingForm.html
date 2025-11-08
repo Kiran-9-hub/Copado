@@ -1,0 +1,61 @@
+<template>
+    <lightning-card title="Add Field Tracking Configuration">
+        <div class="slds-p-around_medium">
+            <lightning-input
+                label="Object API Name"
+                value={objectName}
+                onchange={handleObjectChange}>
+            </lightning-input>
+
+            <lightning-input
+                label="Field API Name"
+                value={fieldName}
+                onchange={handleFieldChange}>
+            </lightning-input>
+
+            <lightning-input
+                type="checkbox"
+                label="Is Critical?"
+                checked={isCritical}
+                onchange={handleCriticalChange}>
+            </lightning-input>
+
+            <template if:true={isDuplicate}>
+                <p class="slds-text-color_error slds-m-top_small">
+                    ⚠️ This configuration already exists.
+                </p>
+            </template>
+            <br/>
+
+            <lightning-button
+                variant="brand"
+                label="Track Field"
+                onclick={handleSave}
+                disabled={isDuplicate}>
+            </lightning-button>
+
+            <template if:true={errorMessage}>
+                <p class="slds-text-color_error slds-m-top_small">{errorMessage}</p>
+            </template>
+
+            <template if:true={success}>
+                <p class="slds-text-color_success slds-m-top_small">
+                    ✅ Configuration saved successfully!
+                </p>
+            </template>
+        </div>
+
+        <template if:true={existingConfigs}>
+            <div class="slds-p-horizontal_medium slds-m-top_medium">
+                <h3 class="slds-text-heading_small"> Existing Configurations</h3> <br>
+                <lightning-datatable
+                    key-field="Id"
+                    data={existingConfigs}
+                    columns={columns}
+                    hide-checkbox-column="true"
+                    class="slds-m-top_small">
+                </lightning-datatable>
+            </div>
+        </template>
+    </lightning-card>
+</template>

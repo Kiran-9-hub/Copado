@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Count of all events --></help>
+        <label>Število dogodkov</label>
+        <name>FSL__Count_of_Events__c</name>
+    </fields>
+    <fields>
+        <label>Število opravil</label>
+        <name>FSL__Count_of_Tasks__c</name>
+    </fields>
+    <fields>
+        <label>Vrsta dogodka</label>
+        <name>FSL__Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Resource Absence</masterLabel>
+            <translation><!-- Resource Absence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Appointment</masterLabel>
+            <translation><!-- Service Appointment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Engagement Plan Task --></label>
+        <name>npsp__Engagement_Plan_Task__c</name>
+        <relationshipLabel><!-- Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Engagement Plan --></label>
+        <name>npsp__Engagement_Plan__c</name>
+        <relationshipLabel><!-- Tasks --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

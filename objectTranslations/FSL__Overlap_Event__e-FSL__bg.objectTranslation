@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Събитие за застъпване</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Събития за застъпване</value>
+    </caseValues>
+    <fields>
+        <label>Вид събитие</label>
+        <name>FSL__Event_Type__c</name>
+    </fields>
+    <fields>
+        <label>Продължителност на застъпване в минути</label>
+        <name>FSL__Overlap_Length_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>ИД на запис</label>
+        <name>FSL__Record_ID__c</name>
+    </fields>
+    <fields>
+        <label>ИД на ресурс</label>
+        <name>FSL__Resource_ID__c</name>
+    </fields>
+    <fields>
+        <label>Часова зона на ресурс</label>
+        <name>FSL__Resource_Time_Zone__c</name>
+    </fields>
+    <fields>
+        <label>Начало</label>
+        <name>FSL__Start__c</name>
+    </fields>
+    <fields>
+        <label>Тема</label>
+        <name>FSL__Subject__c</name>
+    </fields>
+    <fields>
+        <label>ИД на територия</label>
+        <name>FSL__Territory_ID__c</name>
+    </fields>
+    <fields>
+        <label>Име на територия</label>
+        <name>FSL__Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label>ИД на потребител</label>
+        <name>FSL__User_ID__c</name>
+    </fields>
+    <fields>
+        <label>ИД на вид работа</label>
+        <name>FSL__Work_Type_ID__c</name>
+    </fields>
+    <fields>
+        <label>Име на вид работа</label>
+        <name>FSL__Work_Type_Name__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

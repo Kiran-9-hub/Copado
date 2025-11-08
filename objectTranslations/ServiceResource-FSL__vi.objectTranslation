@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Lớp Phủ Nhân Sự Trong Quản Lý Nhóm</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Các Trường Khẩn Cấp</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Nhận Chi Tiết Ứng Viên Nhân Sự</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Bộ Lọc Nhân Sự Trên Gantt</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Nhân Sự</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <fields>
+        <label>Tính Hiệu Quả</label>
+        <name>FSL__Efficiency__c</name>
+    </fields>
+    <fields>
+        <label>Nhãn Gantt</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Bù Trực Tuyến</label>
+        <name>FSL__Online_Offset__c</name>
+    </fields>
+    <fields>
+        <label>Liên Kết Hình Ảnh</label>
+        <name>FSL__Picture_Link__c</name>
+    </fields>
+    <fields>
+        <label>Mức Ưu Tiên</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Tốc Độ Di Chuyển</label>
+        <name>FSL__Travel_Speed__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>Tài Nguyên Năng Suất Không Thể Thuộc Loại Nhóm</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tốc độ di chuyển của nhân sự phải lớn hơn 0.</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

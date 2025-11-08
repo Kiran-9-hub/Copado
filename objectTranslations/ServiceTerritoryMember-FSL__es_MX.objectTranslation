@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Geoloc. dirección domicilio SLR interna</label>
+        <name>FSL__Internal_SLR_HomeAddress_Geolocation__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>La fecha de finalización debe ser en un plazo de 3 años desde hoy.</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No se puede guardar el Miembro del territorio de servicio de tipo secundario con Horas de trabajo o Dirección</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

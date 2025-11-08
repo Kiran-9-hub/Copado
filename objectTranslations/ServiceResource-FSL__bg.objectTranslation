@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Прозорец на ресурси на управл. на екип</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Полета на спешни случаи</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Получаване на подробн. за рес. кандидати</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Филтър на Гант за ресурси</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Прозорец на ресурси</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <fields>
+        <label>Ефективност</label>
+        <name>FSL__Efficiency__c</name>
+    </fields>
+    <fields>
+        <label>Етикет на Гант</label>
+        <name>FSL__GanttLabel__c</name>
+    </fields>
+    <fields>
+        <label>Онлайн изместване</label>
+        <name>FSL__Online_Offset__c</name>
+    </fields>
+    <fields>
+        <label>Връзка към снимка</label>
+        <name>FSL__Picture_Link__c</name>
+    </fields>
+    <fields>
+        <label>Приоритет</label>
+        <name>FSL__Priority__c</name>
+    </fields>
+    <fields>
+        <label>Скорост на пътуване</label>
+        <name>FSL__Travel_Speed__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>Ресурсът за капацитет не може да бъде от тип „екип“</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Скоростта на пътуване на ресурса трябва да бъде по-голяма от 0.</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

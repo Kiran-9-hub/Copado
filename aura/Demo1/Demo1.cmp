@@ -1,0 +1,5 @@
+<aura:component >
+     <c:Demo/>
+    <h1>Once More Hello Salesforce</h1>
+    <h2>This is another component</h2>
+</aura:component>

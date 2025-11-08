@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Prekrývajúca udalosť</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Prekrývajúce udalosti</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Prekrývajúcu udalosť</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Prekrývajúce udalosti</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Prekrývajúcej udalosti</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Prekrývajúcich udalostí</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Prekrývajúcej udalosti</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Prekrývajúcim udalostiam</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Prekrývajúcou udalosťou</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Prekrývajúcimi udalosťami</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Prekrývajúcej udalosti</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Prekrývajúcich udalostiach</value>
+    </caseValues>
+    <fields>
+        <label>Typ udalosti</label>
+        <name>FSL__Event_Type__c</name>
+    </fields>
+    <fields>
+        <label>Dĺžka prekrytia v minútach</label>
+        <name>FSL__Overlap_Length_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>ID záznamu</label>
+        <name>FSL__Record_ID__c</name>
+    </fields>
+    <fields>
+        <label>ID zdroja</label>
+        <name>FSL__Resource_ID__c</name>
+    </fields>
+    <fields>
+        <label>Časové pásmo zdroja</label>
+        <name>FSL__Resource_Time_Zone__c</name>
+    </fields>
+    <fields>
+        <label>Začiatok</label>
+        <name>FSL__Start__c</name>
+    </fields>
+    <fields>
+        <label>Predmet</label>
+        <name>FSL__Subject__c</name>
+    </fields>
+    <fields>
+        <label>ID územia</label>
+        <name>FSL__Territory_ID__c</name>
+    </fields>
+    <fields>
+        <label>Názov územia</label>
+        <name>FSL__Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label>ID používateľa</label>
+        <name>FSL__User_ID__c</name>
+    </fields>
+    <fields>
+        <label>ID typu práce</label>
+        <name>FSL__Work_Type_ID__c</name>
+    </fields>
+    <fields>
+        <label>Názov typu práce</label>
+        <name>FSL__Work_Type_Name__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Εσωτ. γεω-εντοπισμός δ/νσης έδρας SLR</label>
+        <name>FSL__Internal_SLR_HomeAddress_Geolocation__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>Η ημερομηνία λήξης πρέπει να είναι εντός 3 ετών από σήμερα</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Δεν είναι δυνατή η αποθήκευση μέλους περιοχής εξυπηρέτησης με τύπο &quot;Δευτερεύον&quot; με ώρες λειτουργίας ή διεύθυνση</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

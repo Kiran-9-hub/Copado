@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Crearea evenimentului de filtrare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Creare a evenimentului de filtrare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Creările evenimentelor de filtrare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Creări ale evenimentelor de filtrare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Creării evenimentului de filtrare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Creării evenimentului de filtrare</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Creărilor evenimentelor de filtrare</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Creărilor evenimentelor de filtrare</value>
+    </caseValues>
+    <fields>
+        <label>ID listă de rezervări</label>
+        <name>FSL__AppointmentListId__c</name>
+    </fields>
+    <fields>
+        <label>Descriere</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Categorie filtru</label>
+        <name>FSL__FilterCategory__c</name>
+    </fields>
+    <fields>
+        <label>Nume filtru</label>
+        <name>FSL__FilterName__c</name>
+    </fields>
+    <fields>
+        <label>Încărcare imediată filtru</label>
+        <name>FSL__LoadFilterImmediately__c</name>
+    </fields>
+    <fields>
+        <label>ID-uri serviciu</label>
+        <name>FSL__ServiceApptIds__c</name>
+    </fields>
+    <fields>
+        <label>ID-uri teritoriu</label>
+        <name>FSL__TerritoryIds__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

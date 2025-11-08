@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Geolocalização SLR HomeAddress interna</label>
+        <name>FSL__Internal_SLR_HomeAddress_Geolocation__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>A data de término deve estar dentro do período de 3 anos a contar de hoje</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Não é possível salvar o Membro do território de serviço do tipo secundário com Horas de operação ou Endereço</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

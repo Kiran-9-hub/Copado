@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Подія накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Події накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Подію накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Події накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Події накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Подій накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Події накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Подіям накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Подією накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Подіями накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Події накладення</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Подіях накладення</value>
+    </caseValues>
+    <fields>
+        <label>Тип_події</label>
+        <name>FSL__Event_Type__c</name>
+    </fields>
+    <fields>
+        <label>Тривалість_накладення_у_хвилинах</label>
+        <name>FSL__Overlap_Length_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Ідентифікатор_запису</label>
+        <name>FSL__Record_ID__c</name>
+    </fields>
+    <fields>
+        <label>Ідентифікатор_ресурсу</label>
+        <name>FSL__Resource_ID__c</name>
+    </fields>
+    <fields>
+        <label>Часовий_пояс_ресурсу</label>
+        <name>FSL__Resource_Time_Zone__c</name>
+    </fields>
+    <fields>
+        <label>Початок</label>
+        <name>FSL__Start__c</name>
+    </fields>
+    <fields>
+        <label>Тема</label>
+        <name>FSL__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Ідентифікатор_території</label>
+        <name>FSL__Territory_ID__c</name>
+    </fields>
+    <fields>
+        <label>Ім’я_території</label>
+        <name>FSL__Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label>Ідентифікатор_користувача</label>
+        <name>FSL__User_ID__c</name>
+    </fields>
+    <fields>
+        <label>Ідентифікатор_типу_роботи</label>
+        <name>FSL__Work_Type_ID__c</name>
+    </fields>
+    <fields>
+        <label>Ім’я_типу_роботи</label>
+        <name>FSL__Work_Type_Name__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Read</accountAccessLevel>
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Bangalore</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Bangalore_Territory_Account_rule</ruleName>
+    </ruleAssociations>
+    <territory2Type>Bangalore</territory2Type>
+</Territory2>

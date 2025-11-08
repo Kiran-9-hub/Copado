@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Abschnitt der NPSP-Checkliste &quot;Erste Schritte&quot;</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Abschnitte der NPSP-Checkliste &quot;Erste Schritte&quot;</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Abschnitt der NPSP-Checkliste &quot;Erste Schritte&quot;</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Abschnitte der NPSP-Checkliste &quot;Erste Schritte&quot;</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Abschnitts der NPSP-Checkliste &quot;Erste Schritte&quot;</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Abschnitte der NPSP-Checkliste &quot;Erste Schritte&quot;</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Abschnitt der NPSP-Checkliste &quot;Erste Schritte&quot;</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Abschnitten der NPSP-Checkliste &quot;Erste Schritte&quot;</value>
+    </caseValues>
+    <fields>
+        <help><!-- The API name for the Description label of a section item on the Get Started page. Must match an imported label in the gsLabelMapper LWC. --></help>
+        <label>Name der Beschreibungsbezeichnung</label>
+        <name>npsp__Description_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of Get Started page (Admin or End User) where this section will appear. --></help>
+        <label>Seitentyp</label>
+        <name>npsp__Page_Type__c</name>
+        <picklistValues>
+            <masterLabel>Admin</masterLabel>
+            <translation><!-- Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End User</masterLabel>
+            <translation><!-- End User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The position of this section on the Get Started page. --></help>
+        <label>Position</label>
+        <name>npsp__Position__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API Name for the Title label of a section item on the Get Started page. Must match an imported label in the gsLabelMapper LWC. --></help>
+        <label>Name der Titelbezeichnung</label>
+        <name>npsp__Title_Label__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

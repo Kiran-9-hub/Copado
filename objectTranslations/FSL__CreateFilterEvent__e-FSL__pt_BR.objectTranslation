@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Criar evento de filtro</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Criar eventos de filtro</value>
+    </caseValues>
+    <fields>
+        <label>ID da lista de compromissos</label>
+        <name>FSL__AppointmentListId__c</name>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Categoria do filtro</label>
+        <name>FSL__FilterCategory__c</name>
+    </fields>
+    <fields>
+        <label>Nome do filtro</label>
+        <name>FSL__FilterName__c</name>
+    </fields>
+    <fields>
+        <label>Carregar filtro imediatamente</label>
+        <name>FSL__LoadFilterImmediately__c</name>
+    </fields>
+    <fields>
+        <label>IDs de serviço</label>
+        <name>FSL__ServiceApptIds__c</name>
+    </fields>
+    <fields>
+        <label>IDs do território</label>
+        <name>FSL__TerritoryIds__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

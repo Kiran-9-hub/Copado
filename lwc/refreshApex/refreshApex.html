@@ -1,0 +1,8 @@
+<template>
+    <lightning-button label="Refresh Apex" onclick={handleRefresh}></lightning-button>
+    <template if:true={accounts}>
+        <template for:each={accounts} for:item="account">
+            <p key={account.Id}>{account.Name}</p>
+        </template>
+    </template>
+</template>

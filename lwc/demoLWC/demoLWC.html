@@ -1,0 +1,23 @@
+<template>
+   
+    <lightning-input 
+        label="Search Account" 
+        value={searchKey} 
+        onchange={handleKeyChange}
+        placeholder="Search for an Account..." 
+    ></lightning-input>
+
+   
+    <template if:true={accountWithContactList}>
+        <ul>
+            <template for:each={accountWithContactList} for:item="account">
+                <li key={account.accountId}>    
+                    <a href="javascript:void(0);" data-id={account.accountId} onclick={handleNavigation}>             
+                    {account.accountname} <br>
+                </a>
+                     {account.contactCount} Contacts
+                </li>
+            </template>
+        </ul>
+    </template>
+</template>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vehicle Telemetry Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vehicle Telemetry Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- EngineTemp --></label>
+        <name>EngineTemp__c</name>
+    </fields>
+    <fields>
+        <label><!-- FuelLevel --></label>
+        <name>FuelLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileage --></label>
+        <name>Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- VehicleVIN --></label>
+        <name>VehicleVIN__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

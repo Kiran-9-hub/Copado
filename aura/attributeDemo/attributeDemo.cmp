@@ -1,0 +1,17 @@
+<aura:component >
+    <aura:attribute name="Var1" type="String" default = "Test Value"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="newacc" type="Account" default="{'sobjectType' : 'Account', 'Name':'TestAcc1'},"/>
+    <aura:attribute name="arrayDemo" type="String[]" default= "['v1','v2','v3']"/>
+    <h1>
+    
+       {!v.newacc.Name}
+    
+    </h1>
+    
+    Array Values: {!v.arrayDemo[1]} , {!v.arrayDemo[0]}
+    
+    <p>Var1 value is : {!v.Var1}</p>
+    
+    
+</aura:component>

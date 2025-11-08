@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Ekip Yönetimi Lightbox</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Artık Kullanılmıyor</label>
+        <name>FSL__Emergency_Current_WOLineItem</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt Lightbox</label>
+        <name>FSL__Gantt_Lightbox</name>
+    </fieldSets>
+    <fields>
+        <label>Doldur Adayıdır</label>
+        <name>FSL__IsFillInCandidate__c</name>
+    </fields>
+    <fields>
+        <label>Ziyaret Saatleri</label>
+        <name>FSL__VisitingHours__c</name>
+        <relationshipLabel>İş Siparişi Satır Öğeleri</relationshipLabel>
+    </fields>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</CustomObjectTranslation>

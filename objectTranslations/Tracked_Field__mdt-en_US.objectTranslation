@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tracked Field</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tracked Fields</value>
+    </caseValues>
+    <fields>
+        <label><!-- Field API Name --></label>
+        <name>Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Critical --></label>
+        <name>Is_Critical__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notification Type --></label>
+        <name>Notification_Type__c</name>
+        <picklistValues>
+            <masterLabel>Email,</masterLabel>
+            <translation><!-- Email, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform Event</masterLabel>
+            <translation><!-- Platform Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slack</masterLabel>
+            <translation><!-- Slack --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>Object_API_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

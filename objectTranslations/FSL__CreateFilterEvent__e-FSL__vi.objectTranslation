@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tạo Sự Kiện Bộ Lọc</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Tạo Sự Kiện Bộ Lọc --></value>
+    </caseValues>
+    <fields>
+        <label>Id Danh Sách Cuộc Hẹn</label>
+        <name>FSL__AppointmentListId__c</name>
+    </fields>
+    <fields>
+        <label>Mô tả</label>
+        <name>FSL__Description__c</name>
+    </fields>
+    <fields>
+        <label>Danh Mục Bộ Lọc</label>
+        <name>FSL__FilterCategory__c</name>
+    </fields>
+    <fields>
+        <label>Tên Bộ Lọc</label>
+        <name>FSL__FilterName__c</name>
+    </fields>
+    <fields>
+        <label>Tải Bộ Lọc Ngay</label>
+        <name>FSL__LoadFilterImmediately__c</name>
+    </fields>
+    <fields>
+        <label>Các Id Dịch Vụ</label>
+        <name>FSL__ServiceApptIds__c</name>
+    </fields>
+    <fields>
+        <label>Các Id Lãnh Thổ</label>
+        <name>FSL__TerritoryIds__c</name>
+    </fields>
+</CustomObjectTranslation>

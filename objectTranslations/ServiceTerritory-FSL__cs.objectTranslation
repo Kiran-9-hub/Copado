@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Skrýt mapu nouzových situací</label>
+        <name>FSL__Hide_Emergency_Map__c</name>
+    </fields>
+    <fields>
+        <label>Interní geolokace SLR HomeAddress</label>
+        <name>FSL__Internal_SLR_Geolocation__c</name>
+    </fields>
+    <fields>
+        <label>Počet služeb podání</label>
+        <name>FSL__NumberOfServicesToDripFeed__c</name>
+    </fields>
+    <fields>
+        <label>Používat vylepšené plánov. a optimaliz.</label>
+        <name>FSL__O2_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Min. vel. klastru služeb (zavřený pilot)</label>
+        <name>FSL__Service_Cluster_Min_Size__c</name>
+    </fields>
+    <fields>
+        <label>Blízkost klastru služeb (zavřený pilot)</label>
+        <name>FSL__Service_Cluster_Proximity__c</name>
+    </fields>
+    <fields>
+        <label>Systémové úlohy</label>
+        <name>FSL__System_Jobs__c</name>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesDispatched</masterLabel>
+            <translation><!-- BATCH_ServicesDispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BATCH_ServicesInJeopardy</masterLabel>
+            <translation><!-- BATCH_ServicesInJeopardy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ChatterNotification</masterLabel>
+            <translation><!-- ChatterNotification --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Úroveň teritoria</label>
+        <name>FSL__TerritoryLevel__c</name>
+    </fields>
+</CustomObjectTranslation>

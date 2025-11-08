@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- College Management --></label>
+        <name>College_Management</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Developer Edition --></label>
+        <name>Get_Started_with_Agentforce</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- HR Management App --></label>
+        <name>HR_Management_App</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Recruiting App --></label>
+        <name>Recruiting_App</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Hero Description Part 1 --></label>
+        <name>Agentforce_Hero_Desc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hero Description Part 2 --></label>
+        <name>Agentforce_Hero_Desc_Cont</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Launch Card Action --></label>
+        <name>Agentforce_Launch_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Launch Card Description --></label>
+        <name>Agentforce_Launch_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Launch Card Title --></label>
+        <name>Agentforce_Launch_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Learn Card Action --></label>
+        <name>Agentforce_Learn_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Learn Card Description --></label>
+        <name>Agentforce_Learn_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Learn Card Title --></label>
+        <name>Agentforce_Learn_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Practice Card Action --></label>
+        <name>Agentforce_Practice_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Practice Card Description --></label>
+        <name>Agentforce_Practice_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Practice Card Title --></label>
+        <name>Agentforce_Practice_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Hero Title --></label>
+        <name>Agentforce_Welcome_Title</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Demo Component --></label>
+        <name>Demo_Component</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Demo app page --></label>
+        <name>Demo_app_page</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Field Change Monitor --></label>
+        <name>Field_Change_Monitor</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Movie --></label>
+        <name>Movie</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- MyLwcPage --></label>
+        <name>MyLwcPage</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Tab --></label>
+        <name>Tab</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Welcome --></label>
+        <name>Welcome</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Automation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Automations</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Automationss</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Process</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Stage</name>
+                </fields>
+                <name>Scr_Opp_detail2</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Close_Date</name>
+                </fields>
+                <fields>
+                    <name>Opportunity_Name</name>
+                </fields>
+                <name>Scr_Opp_details1</name>
+            </screens>
+        </flows>
+        <fullName>Create_Oppertunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Opportunity_Name</name>
+                </fields>
+                <fields>
+                    <name>Stage</name>
+                </fields>
+                <name>Opportunity_Details1</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>CloseDate</name>
+                </fields>
+                <name>Opportunity_Details2</name>
+            </screens>
+        </flows>
+        <fullName>Create_Opportunity_Record_v3</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Account_Name</name>
+                </fields>
+                <fields>
+                    <name>Opportunity_name</name>
+                </fields>
+                <fields>
+                    <name>Stage</name>
+                </fields>
+                <name>Opportunity_Details</name>
+            </screens>
+        </flows>
+        <fullName>Create_Opportunity_stage_picklist</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Email_alert_flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Process_on_Account</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Process_on_Contact</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Process_on_Contact1</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Update_Account_Record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Update_Opportunity_V2</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>autocloud</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Household --></label>
+        <name>New_Household_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Organization --></label>
+        <name>New_Organization</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Quick Meet --></label>
+        <name>Quick_Meet</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

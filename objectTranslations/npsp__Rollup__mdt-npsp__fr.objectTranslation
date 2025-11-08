@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cumul</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cumuls</value>
+    </caseValues>
+    <fields>
+        <label>Actif</label>
+        <name>npsp__Active__c</name>
+    </fields>
+    <fields>
+        <label>Champ montant</label>
+        <name>npsp__Amount_Field__c</name>
+        <relationshipLabel>MontantCumuls</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Objet montant</label>
+        <name>npsp__Amount_Object__c</name>
+        <relationshipLabel>MontantCumul</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Champ date</label>
+        <name>npsp__Date_Field__c</name>
+        <relationshipLabel>DateCumuls</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Objet date</label>
+        <name>npsp__Date_Object__c</name>
+        <relationshipLabel>DateCumuls</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descriptif</label>
+        <name>npsp__Description__c</name>
+    </fields>
+    <fields>
+        <label>Champ à cumuler</label>
+        <name>npsp__Detail_Field__c</name>
+        <relationshipLabel>DétailCumuls</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Objet détail</label>
+        <name>npsp__Detail_Object__c</name>
+        <relationshipLabel>DétailCumuls</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Groupe de filtres</label>
+        <name>npsp__Filter_Group__c</name>
+        <relationshipLabel>Cumuls</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Entier</label>
+        <name>npsp__Integer__c</name>
+    </fields>
+    <fields>
+        <label>EstSupprimé(e)</label>
+        <name>npsp__Is_Deleted__c</name>
+    </fields>
+    <fields>
+        <label>Opération</label>
+        <name>npsp__Operation__c</name>
+        <picklistValues>
+            <masterLabel>Average</masterLabel>
+            <translation><!-- Average --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Best Year</masterLabel>
+            <translation><!-- Best Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Best Year Total</masterLabel>
+            <translation><!-- Best Year Total --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Count</masterLabel>
+            <translation><!-- Count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor Streak</masterLabel>
+            <translation><!-- Donor Streak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First</masterLabel>
+            <translation><!-- First --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Largest</masterLabel>
+            <translation><!-- Largest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last</masterLabel>
+            <translation><!-- Last --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smallest</masterLabel>
+            <translation><!-- Smallest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sum</masterLabel>
+            <translation><!-- Sum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years Donated</masterLabel>
+            <translation><!-- Years Donated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Champ cible</label>
+        <name>npsp__Summary_Field__c</name>
+        <relationshipLabel>RésuméCumuls</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Objet cible</label>
+        <name>npsp__Summary_Object__c</name>
+        <relationshipLabel>RésuméCumuls</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Délai d&apos;exécution</label>
+        <name>npsp__Time_Bound_Operation_Type__c</name>
+        <picklistValues>
+            <masterLabel>All Time</masterLabel>
+            <translation><!-- All Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Days Back</masterLabel>
+            <translation><!-- Days Back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years Ago</masterLabel>
+            <translation><!-- Years Ago --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Utiliser l’année fiscale</label>
+        <name>npsp__Use_Fiscal_Year__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

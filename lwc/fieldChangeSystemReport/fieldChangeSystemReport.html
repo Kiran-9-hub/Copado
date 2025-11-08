@@ -1,0 +1,35 @@
+<template>
+  <lightning-card title="🔍 Field Change Tracking - Project Report" icon-name="standard:change_request">
+    <div class="slds-p-around_medium">
+      <p><b>Project Objective:</b> Track and log field changes in real-time using metadata and streaming API.</p>
+      
+      <lightning-accordion allow-multiple-sections-open>
+        
+        <lightning-accordion-section name="architecture" label="📐 Architecture Overview">
+          <ul>
+            <li><b>UI:</b> Lightning Web Components (Viewer + Subscriber)</li>
+            <li><b>Logic:</b> Apex classes & triggers</li>
+            <li><b>Data:</b> Field_Change__c (Custom Object)</li>
+            <li><b>Configuration:</b> Tracked_Field__mdt</li>
+            <li><b>Notification:</b> PushTopic + Streaming API</li>
+          </ul>
+        </lightning-accordion-section>
+
+        <lightning-accordion-section name="trackedfields" label="📋 Tracked Fields">
+          <template for:each={trackedFields} for:item="field">
+            <p key={field.id}>• {field.objectName}.{field.fieldName} → Critical: {field.isCritical}</p>
+          </template>
+        </lightning-accordion-section>
+
+        <lightning-accordion-section name="benefits" label="🎯 Benefits">
+          <ul>
+            <li>Real-time UI notifications via PushTopics</li>
+            <li>Metadata-driven field tracking</li>
+            <li>Central audit trail via custom object</li>
+          </ul>
+        </lightning-accordion-section>
+
+      </lightning-accordion>
+    </div>
+  </lightning-card>
+</template>
